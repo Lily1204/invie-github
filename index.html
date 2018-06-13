@@ -12,12 +12,21 @@ margin: 0;
 img{
     max-width: 100%;
     vertical-align: top;
+   
 }
-
+img#responsive{
+    display: none;
+}
+@media screen and (max-width: 768px){
+img#responsive{
+    display:block;
+}
+}
   </style>
     
 </head>
 <body>
+    <img src="Imagenes/invie.png" alt="" id="responsive">
     <img src="Imagenes/header.jpg" alt="">
     <img src="Imagenes/hero.jpg" alt="">
    <img src="Imagenes/acustica.jpg" alt="">
